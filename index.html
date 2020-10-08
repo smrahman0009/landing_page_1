@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Complete Bootstrap 4 Website Layout</title>
+	<title>mrappstore</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -15,10 +15,10 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#">
-			<img src="img/logo.png">
+			<img src="img/mrAppStoreLogo.png">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
@@ -31,17 +31,17 @@
 					</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">
-						Shops
+					<a class="nav-link" href="#services">
+						Services
 					</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">
-						Products
+					<a class="nav-link" href="#team">
+						Our Team
 					</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">
+					<a class="nav-link" href="#contact">
 						Contacts
 					</a>
 				</li>
@@ -61,10 +61,10 @@
 	</ul>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="img/background.png" alt="">
+			<img src="img/slide_show_3.jpg" alt="">
 			<div class="carousel-caption">
-				<h1 class="display-2">Bootstrap</h1>
-				<h3>Complete Website Layout</h3>
+				<h1 class="display-2">mrAppStore</h1>
+				<h3 class="mr-store-header">App Service Provider</h3>
 				<button type="button" class="btn btn-outline-light btn-lg">
 					View Demo
 				</button>
@@ -72,10 +72,10 @@
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="img/background2.png" alt="">
+			<img src="img/slide_show_2.jpg" alt="">
 		</div>
 		<div class="carousel-item">
-			<img src="img/background3.png" alt="">
+			<img src="img/slide_show_4.jpeg" alt="">
 		</div>
 	</div>
 </div>
@@ -99,18 +99,18 @@
 	</div>
 </div>
 <!--- Welcome Section -->
+<a id="services"/>
 <div class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h1 class="display-4">
-				Built with ease.
+				Our Services..
 			</h1>
 		</div>
 		<hr>
 		<div class="col-12">
 			<p class="lead">
-				Welcome to my Bootstrap 4 website tutorial!
-				Bootstrap is a free and open-source front-end library with HTML and css based design
+				Det er en kendsgerning, at man bliver distraheret af læsbart indhold på en side, når man betragter dens layout. Meningen med at bruge Lorem Ipsum er, at teksten indeholder mere eller mindre almindelig tekstopbygning i modsætning til "Tekst her - og mere tekst her", mens det samtidigt ligner almindelig tekst. Mange layoutprogrammer og webdesignere bruger Lorem Ipsum som fyldtekst.
 			</p>
 		</div>
 	</div>
@@ -119,27 +119,24 @@
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<i class="fas fa-code">
-			</i>
-			<h3>HTML5</h3>
+			<i class="fab fa-android"></i>
+			<h3>Android</h3>
 			<p>
-				Built with the latest version of HTML, HTML5.
+				És un fet establert de forma evident que un lector es distraurà amb el contingut llegible d'una pàgina quan miri a la seva composició.
 			</p>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<i class="fas fa-bold">
-			</i>
-			<h3>BOOTSTRAP</h3>
+			<i class="fab fa-apple"></i>
+			<h3>IOS</h3>
 			<p>
-				Built with the latest version of Bootstrap 4.
+				És un fet establert de forma evident que un lector es distraurà amb el contingut llegible d'una pàgina quan miri a la seva composició.
 			</p>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<i class="fab fa-css3">
-			</i>
-			<h3>CSS3</h3>
+			<i class="fab fa-react"></i>
+			<h3>WEB</h3>
 			<p>
-				Built with the latest version of CSS, CSS3.
+				És un fet establert de forma evident que un lector es distraurà amb el contingut llegible d'una pàgina quan miri a la seva composició.
 			</p>
 		</div>
 	</div>
@@ -183,7 +180,7 @@
 </figure>
 
 <!--- Emoji Section -->
-<button class="fun" data-toggle="collapse" data-target="#emoji">
+<!-- <button class="fun" data-toggle="collapse" data-target="#emoji">
 	Click for fun
 </button>
 <div id="emoji" class="collapse">
@@ -196,9 +193,10 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
   
 <!--- Meet the team -->
+<a id="team"/>
 <div class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
@@ -301,12 +299,12 @@
 </div>
 
 <!--- Footer -->
-
-<footer>
+<a id="contact"/>
+<footer class="footer">
 	<div class="container-fluid padding">
 		<div class="row text-center">
 			<div class="col-md-4">
-				<img src="img/w3newbie.png" alt="">
+				<img src="img/mrAppStoreLogo.png" alt="">
 				<hr class="light">
 				<p>555-555-5555</p>
 				<p>email@gmail.com</p>
@@ -315,7 +313,7 @@
 			</div>
 			<div class="col-md-4">
 				<hr class="light">
-				<h5>Our Hours</h5>
+				<h5 class="mr-store-header">Our Hours</h5>
 				<hr class="light">
 				<p>Monday: 9am - 5pm</p>
 				<p>Saturday: 10am - 4pm</p>
@@ -323,16 +321,16 @@
 			</div>
 			<div class="col-md-4">
 				<hr class="light">
-				<h5>Our Hours</h5>
+				<h5 class="mr-store-header">More Info</h5>
 				<hr class="light">
-				<p>100 Street Name</p>
-				<p>City, State, 00000</p>
-				<p>100 Street Name</p>
-				<p>City, State, 00000</p>
+				<p>Lorem ipsum dolor sit amet.</p>
+				<p>Consectetur eit, 0000</p>
+				<p>Morbi faucibus dui.</p>
+				<p>Consectetur adipiscing elit.</p>
 			</div>
 			<div class="col-12">
 				<hr class="light-footer">
-				<h5>&copy; w3newbie.com</h5>
+				<h5>&copy; mrappstore.com</h5>
 			</div>
 		</div>
 	</div>

@@ -9,6 +9,7 @@ html,body{
 
 .navbar{
   padding: .8rem;
+  background-color: #3f3f3f;
 }
 
 .navbar-nav li{
@@ -16,7 +17,9 @@ html,body{
 }
 
 .nav-link{
-  font-size: 1.1rem !important;
+  font-size: 1.4rem !important;
+  font-family: aria;
+  color: #3ddc84 !important;
 }
 
 .carousel-inner img{
@@ -41,11 +44,12 @@ html,body{
   padding-bottom: 1rem;
 }
 .btn-primary{
-  background-color: #6648b1;
+  background-color: #3f3f3f;
+  color: #3ddc84;
   border: 1px solid #664851;
 }
 .btn-primary:hover{
-  background-color: #563d71;
+  background-color: #3ddc84;
   border: 1px solid #563d71;
 }
 .jumbotron{
@@ -69,17 +73,18 @@ html,body{
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
-.fa-code{
-  color:#e54d26;
+
+.fa-android{
+  color: #3ddc84;
 }
-.fa-bold{
-  color:#563d7c;
+.fa-apple{
+  color: #a6b1b7;
 }
-.fa-css3{
-  color: #2163af;
+.fa-react{
+  color: #61bafd;
 }
-.fa-code, .fa-bold, .fa-css3{
-  font-size: 4em;
+.fa-android, .fa-apple, .fa-react{
+  font-size: 6rem;
   margin: 1rem;
 }
 .fun{
@@ -122,7 +127,7 @@ html,body{
 .fa-youtube:hover{
   color: #d5d5d5;
 }
-footer{
+.footer{
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem;
@@ -194,7 +199,9 @@ figure {
     padding: 1rem;
 }
 
-
+.mr-store-header{
+  color: #3ddc84;
+}
 
 
 
